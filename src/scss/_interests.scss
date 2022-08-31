@@ -1,0 +1,22 @@
+.interests__content {
+  &-menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    justify-items: center;
+  }
+  &-list {
+    display: grid;
+    gap: 8px;
+    justify-items: center;
+    i {
+      color: $textColorLight;
+      font-size: $bigFontSize;
+    }
+    p {
+      color: $textColor;
+      font-size: $normalFontSize;
+      letter-spacing: 1px;
+    }
+  }
+}

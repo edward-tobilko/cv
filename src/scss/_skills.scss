@@ -1,0 +1,29 @@
+.skills__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  margin: 20px 0;
+  .skills__data {
+    display: inline-grid;
+    gap: 20px;
+    &-list {
+      color: $textColor;
+      font-size: $normalFontSize;
+    }
+    &-item {
+      position: relative;
+      &::before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        background-color: $textColor;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}

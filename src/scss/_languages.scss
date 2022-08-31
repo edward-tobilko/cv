@@ -1,0 +1,25 @@
+.languages__content {
+  display: grid;
+  gap: 20px;
+  &-list {
+    position: relative;
+    color: $textColor;
+    font-size: $normalFontSize;
+    letter-spacing: 1px;
+    &::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: $textColor;
+
+      position: absolute;
+      top: 50%;
+      left: -12px;
+      transform: translateY(-50%);
+    }
+    span {
+      color: $textColorLight;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+// A4 Scale Resume
+
+.a4ScaleResume .section {
+  padding: 10px 0;
+}
+.a4ScaleResume .resume {
+  max-width: 650px;
+  width: 100%;
+}
+.a4ScaleResume .change__theme {
+  top: 5px;
+  left: 5px;
+  font-size: 17px;
+}
+.a4ScaleResume .resume__left {
+  padding: 5px 10px;
+}
+.a4ScaleResume .resume__right {
+  padding: 5px 10px;
+}
+.a4ScaleResume .home .home__container .home__data-img {
+  width: 170px;
+  height: 270px;
+}
+.a4ScaleResume .home .home__container .home__data-name {
+  font-size: 22px;
+}
+.a4ScaleResume .home .home__container .home__data-CV {
+  margin: 15px 0 25px 0;
+}
+.a4ScaleResume .home .home__container .home__data-address-info {
+  font-size: 13px;
+}
+.a4ScaleResume .aboutMe__content-text {
+  text-align: start;
+  line-height: 20px;
+  font-size: 15px;
+}
+.a4ScaleResume .section-title {
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.a4ScaleResume .section-subtitle {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+.a4ScaleResume .experience__content {
+  justify-content: flex-start;
+}
+.a4ScaleResume img {
+  width: 180px;
+}
+.a4ScaleResume .social-menu {
+  gap: 10px;
+}
+.a4ScaleResume .social-menu-link {
+  font-size: 13px;
+}
+.a4ScaleResume .skills__content {
+  margin: 7px 0;
+}
+.a4ScaleResume .skills__content .skills__data-list {
+  font-size: 15px;
+}
+.a4ScaleResume .interests__content-list {
+  gap: 4px;
+}
+.a4ScaleResume .interests__content-list p {
+  font-size: 16px;
+}
+.a4ScaleResume .skills__content .skills__data {
+  gap: 10px;
+}
+.a4ScaleResume .a4ScaleResume .skills__content .skills__data-list {
+  font-size: 14px;
+}
+.a4ScaleResume .languages__content-list::before {
+  left: -10px;
+}

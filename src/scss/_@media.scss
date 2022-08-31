@@ -1,0 +1,90 @@
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    display: none;
+  }
+  .resume {
+    display: grid;
+    grid-template-columns: 0.7fr 2fr;
+    margin: 20px 30px;
+    border: 5px solid rgba(186, 169, 169, 0.436);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .home .home__container .home__data-img {
+    width: 225px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 576px) {
+  .home .home__container .home__data-img {
+    width: 320px;
+    height: 530px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .interests__content-menu {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .experience__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .experience__content-left {
+    margin-bottom: 15px;
+  }
+  .twoImage,
+  .threeImage {
+    display: none;
+  }
+  .photoTwo {
+    background-image: url("../img/Experience-level_3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 138px;
+  }
+  .photoThree {
+    background-image: url("../img/Experience-level_4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 138px;
+  }
+  .social-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-link {
+      span {
+        display: none;
+      }
+      i {
+        font-size: $bigFontSize;
+        transition: transform 0.3s ease;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header .nav .nav__menu-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

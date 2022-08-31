@@ -1,0 +1,68 @@
+// Dark Mode
+
+body.dark-mode {
+  background-color: $DMbodyColor;
+}
+.dark-mode .resume__left {
+  background-color: $DMcontainerColorAlt;
+}
+.dark-mode .home .home__container .home__data-name {
+  color: $DMtitleColor;
+}
+.dark-mode .home .home__container .home__data-job {
+  color: $DMtextColor;
+}
+.dark-mode .home .home__container .home__data-CV-download i {
+  color: $DMtextColor;
+}
+.dark-mode .home .home__container .home__data-address-info {
+  color: $DMtextColor;
+}
+.dark-mode .resume__right {
+  background-color: $DMbodyColor;
+}
+.dark-mode .section-title {
+  color: $DMtitleColor;
+}
+.dark-mode .aboutMe__content-text {
+  color: $DMtextColor;
+}
+.dark-mode .section-subtitle {
+  color: $DMtextColor;
+}
+.dark-mode .languages__content-list::before {
+  background-color: $DMtextColor;
+}
+.dark-mode .languages__content-list {
+  color: $DMtextColor;
+}
+.dark-mode .social-menu-link {
+  color: $DMtextColor;
+}
+.dark-mode .skills__content .skills__data-list {
+  color: $DMtextColor;
+}
+.dark-mode .skills__content .skills__data-item::before {
+  background-color: $DMtextColor;
+}
+.dark-mode .interests__content-list i {
+  color: $DMtitleColor;
+}
+.dark-mode .interests__content-list p {
+  color: $DMtextColor;
+}
+.dark-mode .social-menu-link i {
+  color: $DMtitleColor;
+}
+.dark-mode .header {
+  background-color: $DMcontainerColorAlt;
+}
+.dark-mode .header .nav-logo i {
+  color: $DMtitleColor;
+}
+.dark-mode .header .nav .nav__toggle i {
+  color: $DMtitleColor;
+}
+.dark-mode .change__theme {
+  color: $DMtitleColor;
+}

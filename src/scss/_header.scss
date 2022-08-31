@@ -1,0 +1,109 @@
+// Header
+.header {
+  width: 100%;
+  background-color: $bodyColor;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.5);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  transition: 0.3s;
+  .nav {
+    max-width: $breakpoint992;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-logo {
+      font-weight: $fontMedium;
+      i {
+        font-size: 35px;
+        color: $titleColor;
+      }
+    }
+    .nav__toggle {
+      i {
+        color: $titleColor;
+        font-weight: $fontMedium;
+        font-size: 35px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    .nav__menu {
+      &-list {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      &-link {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: $normalFontSize;
+        color: $textColorLight;
+        font-weight: $fontMedium;
+
+        transition: 0.3s ease-in-out;
+        &:hover {
+          color: $titleColor;
+        }
+        i {
+          font-size: 35px;
+          margin-bottom: 7px;
+        }
+        span {
+          letter-spacing: 1.2px;
+        }
+      }
+
+      // Active link
+      .active {
+        color: $titleColor;
+      }
+    }
+  }
+}
+
+// @media
+@media screen and (max-width: $breakpoint992) {
+  .nav__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    z-index: 100;
+
+    width: 100%;
+    padding: 20px;
+    background-color: $bodyColor;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 10px 10px;
+    transition: 0.3s linear;
+  }
+
+  // Show menu
+  .show-menu {
+    top: 50px;
+  }
+
+  .dark-mode .nav__menu {
+    background-color: $DMbodyColor;
+  }
+  .dark-mode .header .nav .nav__menu-link {
+    color: $DMtextColor;
+    &:hover {
+      color: $DMtitleColor;
+    }
+  }
+  .dark-mode .header .nav .nav__menu .active {
+    color: $DMtitleColor;
+  }
+}
