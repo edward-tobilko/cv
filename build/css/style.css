@@ -238,7 +238,7 @@ h6 {
 
 .home .home__container .home__data-address {
   display: grid;
-  gap: 20px;
+  gap: 30px;
 }
 
 .home .home__container .home__data-address-info {
@@ -271,7 +271,7 @@ h6 {
 
 .social-menu {
   display: grid;
-  gap: 15px;
+  gap: 20px;
 }
 
 .social-menu-link {
@@ -304,8 +304,6 @@ h6 {
 .skills__content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0;
-  margin: 20px 0;
 }
 
 .skills__content .skills__data {
@@ -417,11 +415,13 @@ h6 {
   color: #707070;
 }
 
+.interests__content {
+  margin-top: 10px;
+}
+
 .interests__content-menu {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 5px;
-  justify-items: center;
 }
 
 .interests__content-list {

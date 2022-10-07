@@ -1,9 +1,8 @@
 .interests__content {
+  margin-top: 10px;
   &-menu {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
-    justify-items: center;
   }
   &-list {
     display: grid;

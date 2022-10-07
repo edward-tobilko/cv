@@ -1,8 +1,6 @@
 .skills__content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0;
-  margin: 20px 0;
   .skills__data {
     display: inline-grid;
     gap: 20px;
