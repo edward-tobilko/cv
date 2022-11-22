@@ -1,5 +1,7 @@
 .interests__content {
-  margin-top: 10px;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
   &-menu {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

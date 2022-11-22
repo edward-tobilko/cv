@@ -295,10 +295,11 @@ h6 {
 }
 
 .aboutMe__content-text {
-  text-align: center;
+  text-align: left;
   line-height: 22px;
   color: #403a3a;
   font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .skills__content {
@@ -416,7 +417,9 @@ h6 {
 }
 
 .interests__content {
-  margin-top: 10px;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
 }
 
 .interests__content-menu {
