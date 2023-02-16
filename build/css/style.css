@@ -200,7 +200,7 @@ h6 {
 
 .home .home__container .home__data-CV {
   text-align: center;
-  margin: 30px 0 30px 0;
+  margin: 20px 0 30px 0;
 }
 
 .home .home__container .home__data-CV-download {
@@ -238,7 +238,7 @@ h6 {
 
 .home .home__container .home__data-address {
   display: grid;
-  gap: 30px;
+  gap: 20px;
 }
 
 .home .home__container .home__data-address-info {
@@ -269,29 +269,25 @@ h6 {
           align-items: center;
 }
 
-.social-menu {
+.home .home__container .social-menu {
   display: grid;
-  gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
-.social-menu-link {
+.home .home__container .social-menu-link {
   color: #403a3a;
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-size: 20px;
 }
 
-.social-menu-link i {
-  margin-right: 5px;
-}
-
-.social-menu-link i:hover {
+.home .home__container .social-menu-link i:hover {
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
-}
-
-.social-menu-link span:hover {
-  text-decoration: underline;
 }
 
 .aboutMe__content-text {
@@ -309,7 +305,7 @@ h6 {
 
 .skills__content .skills__data {
   display: inline-grid;
-  gap: 12px;
+  gap: 10px;
 }
 
 .skills__content .skills__data-list {
@@ -317,73 +313,25 @@ h6 {
   font-size: 16px;
 }
 
-.skills__content .skills__data-item {
-  position: relative;
+.projects__content {
+  display: grid;
+  gap: 10px;
 }
 
-.skills__content .skills__data-item::before {
-  content: "";
-  width: 5px;
-  height: 5px;
-  background-color: #403a3a;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: -10px;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+.projects__content-list span {
+  font-size: 16px;
 }
 
-.experience__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.projects__content-list span:last-child {
+  font-size: 14px;
 }
 
-.experience__content-left,
-.experience__content-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.projects__content-link {
+  color: rgba(21, 76, 242, 0.838);
 }
 
-.experience__content-img {
-  margin: 10px 0;
-}
-
-.experience__content-time {
-  padding-right: 10px;
-}
-
-.experience__content-time-rounder {
-  position: relative;
-  display: block;
-  width: 15px;
-  height: 15px;
-  background-color: #707070;
-  border-radius: 50%;
-}
-
-.experience__content-time-line {
-  display: block;
-  width: 2px;
-  height: 90%;
-  background-color: #707070;
-  -webkit-transform: translate(7px, 0);
-      -ms-transform: translate(7px, 0);
-          transform: translate(7px, 0);
-}
-
-.experience__content-time-end {
-  position: relative;
-  display: block;
-  width: 15px;
-  height: 15px;
-  background-color: #707070;
-  border-radius: 50%;
+.projects__content-link:hover {
+  text-decoration: underline;
 }
 
 .languages__content {
@@ -392,24 +340,9 @@ h6 {
 }
 
 .languages__content-list {
-  position: relative;
   color: #403a3a;
   font-size: 16px;
   letter-spacing: 1px;
-}
-
-.languages__content-list::before {
-  content: "";
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background-color: #403a3a;
-  position: absolute;
-  top: 50%;
-  left: -12px;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
 }
 
 .languages__content-list span {
@@ -417,18 +350,15 @@ h6 {
 }
 
 .interests__content {
-  margin: 0 auto;
-  max-width: 500px;
   width: 100%;
 }
 
 .interests__content-menu {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   -webkit-column-gap: 10px;
      -moz-column-gap: 10px;
           column-gap: 10px;
-  row-gap: 20px;
 }
 
 .interests__content-list {
@@ -666,7 +596,7 @@ p {
 }
 
 .section {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .section-title {
@@ -674,7 +604,7 @@ p {
   color: #0b0a0a;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-align: center;
   padding-bottom: 10px;
 }

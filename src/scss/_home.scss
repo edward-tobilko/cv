@@ -25,7 +25,7 @@
       }
       &-CV {
         text-align: center;
-        margin: 30px 0 30px 0;
+        margin: 20px 0 30px 0;
         &-download {
           display: flex;
           align-items: center;
@@ -48,7 +48,7 @@
       }
       &-address {
         display: grid;
-        gap: 30px;
+        gap: 20px;
         &-info {
           display: inline-block;
           font-size: $normalFontSize;
@@ -71,14 +71,24 @@
         }
       }
     }
+
+    .social {
+      &-menu {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        &-link {
+          color: $textColor;
+          font-size: $semiFontSize;
+          i {
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
   }
 }
-
-// @media screen and (max-width: $breakpoint992) {
-//   .home .home__container .home__data-address {
-//     text-align: center;
-//   }
-//   .home .home__container .home__data-address-info-description {
-//     justify-content: center;
-//   }
-// }

@@ -1,0 +1,18 @@
+.projects__content {
+  display: grid;
+  gap: 10px;
+  &-list {
+    span {
+      font-size: $normalFontSize;
+      &:last-child {
+        font-size: $smallFontSize;
+      }
+    }
+  }
+  &-link {
+    color: rgba(21, 76, 242, 0.838);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -6,10 +6,9 @@
 // Sections or Pages SCSS-files imports
 @import "./header";
 @import "./home";
-@import "./social";
 @import "./about-me";
 @import "./skills";
-@import "./experience";
+@import "./projects";
 @import "./languages";
 @import "./interests";
 @import "./dark-mode";
@@ -45,13 +44,13 @@ p {
 }
 
 .section {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   &-title {
     font-size: $semiFontSize;
     color: $titleColor;
     text-transform: uppercase;
     font-weight: $fontSemiBold;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-align: center;
     padding-bottom: 10px;
   }

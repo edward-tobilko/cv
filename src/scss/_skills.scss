@@ -3,25 +3,10 @@
   grid-template-columns: repeat(2, 1fr);
   .skills__data {
     display: inline-grid;
-    gap: 12px;
+    gap: 10px;
     &-list {
       color: $textColor;
       font-size: $normalFontSize;
-    }
-    &-item {
-      position: relative;
-      &::before {
-        content: "";
-        width: 5px;
-        height: 5px;
-        background-color: $textColor;
-        border-radius: 50%;
-
-        position: absolute;
-        top: 50%;
-        left: -10px;
-        transform: translateY(-50%);
-      }
     }
   }
 }
