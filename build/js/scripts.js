@@ -103,8 +103,8 @@ let options = {
   margin: 0,
   filename: "CV_eduard-tobilko.pdf",
   image: { type: "jpeg", quality: 0.98 },
-  html2canvas: { scale: 4 },
-  jsPDF: { format: "a4", orientation: "portrait" },
+  html2canvas: { scale: 2 },
+  jsPDF: { format: "letter", orientation: "portrait", unit: "in" },
 };
 
 function generateResumeToPDF() {

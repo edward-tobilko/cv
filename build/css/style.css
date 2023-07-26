@@ -313,25 +313,86 @@ h6 {
   font-size: 16px;
 }
 
-.projects__content {
-  display: grid;
-  gap: 10px;
+.experience__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 15px 0;
 }
 
-.projects__content-list span {
-  font-size: 16px;
-}
-
-.projects__content-list span:last-child {
+.experience__content-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 70px;
+  width: 100%;
+  margin-right: 10px;
+  color: #403a3a;
   font-size: 14px;
 }
 
-.projects__content-link {
-  color: rgba(21, 76, 242, 0.838);
+.experience__content-time span {
+  text-align: center;
 }
 
-.projects__content-link:hover {
-  text-decoration: underline;
+.experience__content-time:last-of-type {
+  display: none;
+}
+
+.experience__content-project__title {
+  border-bottom: 1px solid #0000002d;
+}
+
+.experience__content-project__title p {
+  padding-bottom: 5px;
+  color: #403a3a;
+}
+
+.experience__content-project__title p:last-child {
+  padding-bottom: 10px;
+}
+
+.experience__content-project__subtitle {
+  padding-bottom: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.experience__content-project__subtitle p {
+  color: #403a3a;
+  padding: 10px 0 10px 0;
+  line-height: 20px;
+}
+
+.experience__content-project__subtitle a {
+  color: blue;
+}
+
+.experience__content-project__subtitle-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 20px;
+}
+
+.experience__content-project__subtitle-link {
+  padding: 5px 0;
 }
 
 .languages__content {
