@@ -1,0 +1,2 @@
+[0212/053302.814:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0212/053302.814:ERROR:exception_snapshot_win.cc(98)] thread ID 14472 not found in process

@@ -46,6 +46,7 @@ p {
 
 .section {
   padding-bottom: 20px;
+
   &-title {
     font-size: $semiFontSize;
     color: $titleColor;
@@ -55,6 +56,7 @@ p {
     text-align: center;
     padding-bottom: 10px;
   }
+
   &-subtitle {
     font-size: $semiFontSize;
     color: $textColor;

@@ -135,7 +135,7 @@ h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 16px;
+  font-size: 17px;
   color: #707070;
   font-weight: 500;
   -webkit-transition: 0.3s ease-in-out;
@@ -194,7 +194,7 @@ h6 {
 
 .home .home__container .home__data-job {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 17px;
   color: #403a3a;
 }
 
@@ -243,7 +243,7 @@ h6 {
 
 .home .home__container .home__data-address-info {
   display: inline-block;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 17px;
   letter-spacing: 1px;
   color: #403a3a;
@@ -294,7 +294,7 @@ h6 {
   text-align: left;
   line-height: 22px;
   color: #403a3a;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1px;
 }
 
@@ -310,7 +310,7 @@ h6 {
 
 .skills__content .skills__data-list {
   color: #403a3a;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .experience__content {
@@ -374,6 +374,7 @@ h6 {
   color: #403a3a;
   padding: 10px 0 10px 0;
   line-height: 20px;
+  font-size: 14.5px;
 }
 
 .experience__content-project__subtitle a {
@@ -402,7 +403,7 @@ h6 {
 
 .languages__content-list {
   color: #403a3a;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1px;
 }
 
@@ -435,7 +436,7 @@ h6 {
 
 .interests__content-list p {
   color: #403a3a;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1px;
 }
 
@@ -633,7 +634,7 @@ body.dark-mode {
 body {
   line-height: 1;
   font-family: "Oswald", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   background-color: #fcfcfc;
   color: #403a3a;
   -ms-text-size-adjust: 100%;

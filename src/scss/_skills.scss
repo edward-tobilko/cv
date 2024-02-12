@@ -1,9 +1,11 @@
 .skills__content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
   .skills__data {
     display: inline-grid;
     gap: 10px;
+
     &-list {
       color: $textColor;
       font-size: $normalFontSize;
